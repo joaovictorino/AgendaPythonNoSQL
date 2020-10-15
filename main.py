@@ -6,7 +6,7 @@ from agenda.presentation.agenda import Agenda
 
 if __name__ == "__main__":
     config = configparser.ConfigParser()
-    config.read('example.ini')
+    config.read('config.ini')
     
     repository = RepositoryContato(config['DEFAULT']['mongodb'])
     application = AgendaService(repository)
