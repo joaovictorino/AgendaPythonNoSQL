@@ -15,5 +15,5 @@ def test_NumeroMaiorQue25Digitos():
 
 def test_NovoContatoSucesso():
     nome = "José da Silva"
-    numero = "(11) 97505-65424"
+    numero = "(11) 97505-6542"
     contato = Contato(nome, numero)
