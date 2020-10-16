@@ -31,6 +31,8 @@ class Agenda:
                 print("Contato cadastrado com sucesso")
             except ContatoJaCadastrado:
                 print("Contato já cadastrado")
+            except ValueError as exc:
+                print(str(exc))
         else:
             return
 
