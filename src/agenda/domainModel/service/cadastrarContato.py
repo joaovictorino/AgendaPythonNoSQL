@@ -12,5 +12,5 @@ class CadastrarContato:
                 raise ContatoJaCadastrado
 
             repository.inserir(contato)
-        except:
+        except Exception as exp:
             raise ContatoJaCadastrado
